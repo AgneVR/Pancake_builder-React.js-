@@ -1,0 +1,100 @@
+.Ingridiet {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 1px solid #dadfe1;
+  width: 348px;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+
+  &--title {
+    margin-right: auto;
+  }
+
+  &--btnsum {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 180px;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  &--name {
+    padding-bottom: 16px;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 18px;
+    padding-bottom: 14px;
+    padding-top: 14px;
+  }
+
+  &--btn {
+    background: #5c0024;
+    color: #ecf0f1;
+    padding: 9px 14px;
+    text-align: center;
+    text-decoration: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border: none;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    margin-right: 24px;
+    border-radius: 25px;
+    &:hover {
+      color: #bc1074;
+      background: #ecf0f1;
+      -webkit-transition: 0.3s;
+      transition: 0.3s;
+      border: 1px solid #400427;
+    }
+    &:focus {
+      outline: none;
+    }
+  }
+}
+.Price {
+  padding-bottom: 24px;
+  border-bottom: 1px solid #dadfe1;
+
+  &--sum {
+    font-size: 20px;
+    font-weight: 600;
+  }
+}
+.btn {
+  width: 348px;
+
+  a {
+    width: 100%;
+
+    display: inline-block;
+    margin-top: 30px;
+  }
+  .Order-btn {
+    background: #400427;
+    color: #ecf0f1;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-radius: 25px;
+
+    &:hover {
+      color: #e0dbde;
+      background: #ab0036;
+      -webkit-transition: 0.3s;
+      transition: 0.3s;
+    }
+  }
+}

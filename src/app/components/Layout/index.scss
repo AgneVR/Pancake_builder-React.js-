@@ -1,0 +1,85 @@
+@import '../../styles/style.scss';
+
+.Header {
+  padding: 0px 15px;
+  background: $mainColor;
+
+  &--navigation {
+    max-width: 1020px;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+
+    &-item {
+      color: #ecf0f1;
+      font-size: 20px;
+      line-height: 20px;
+      padding: 15px 18px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-transition: all 0.3s;
+      transition: all 0.3s;
+      font-weight: 600;
+
+      &:hover,
+      &.active {
+        background: #ecf0f1;
+        color: #bc1074;
+        font-weight: 600;
+      }
+    }
+  }
+
+  img {
+    width: 76px;
+  }
+  &--logo {
+    width: 76px;
+    height: auto;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-right: auto;
+  }
+}
+
+.Main {
+  min-height: 84vh;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1020px;
+  margin: auto;
+}
+
+.Footer {
+  padding: 20px 20px;
+  background: $mainColor;
+  font-size: 20px;
+  line-height: 20px;
+  color: #ecf0f1;
+
+  width: 100%;
+  height: 81px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+
+  span {
+    font-style: italic;
+  }
+}

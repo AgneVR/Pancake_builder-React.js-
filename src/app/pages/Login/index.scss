@@ -1,0 +1,95 @@
+.All-login {
+  background: #fff;
+  padding: 60px;
+  border-radius: 10px;
+  width: 400px;
+  h2 {
+    font-size: 24px;
+    color: #333333;
+    line-height: 1.2;
+    text-align: center;
+    width: 100%;
+    display: block;
+    padding-bottom: 30px;
+    font-weight: 500;
+  }
+  img {
+    width: 100px;
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 auto;
+    padding-bottom: 30px;
+  }
+
+  .Login {
+    input {
+      width: 100%;
+      margin-bottom: 14px;
+      height: 38px;
+      margin-top: 7px;
+      font-family: 'Quicksand', sans-serif;
+      font-size: 15px;
+      line-height: 1.5;
+      color: #191919;
+      display: block;
+      width: 100%;
+      background: #e6e6e6;
+      border: none;
+      border-radius: 25px;
+      padding: 0 30px 0 20px;
+      outline: none;
+    }
+    ::-webkit-input-placeholder {
+      color: #191919;
+    }
+    :-ms-input-placeholder {
+      color: #191919;
+    }
+    ::-ms-input-placeholder {
+      color: #191919;
+    }
+    ::placeholder {
+      color: #191919;
+    }
+
+    label {
+      font-size: 18px;
+    }
+    button {
+      width: 100%;
+      border: none;
+      background: #006a9e;
+      color: #ffffff;
+      font-weight: 100;
+      padding: 10px;
+      text-transform: uppercase;
+      display: inline-block;
+      -webkit-transition: all 0.3s ease 0s;
+      transition: all 0.3s ease 0s;
+      margin-top: 20px;
+      height: 40px;
+      border-radius: 25px;
+      text-transform: uppercase;
+      font-weight: 600;
+      border: none;
+
+      &:active,
+      &:focus {
+        outline: none;
+        border: none;
+      }
+
+      &:hover {
+        font-weight: 700;
+        background: #006a9e;
+        border: 2px solid #00d0ff;
+        -webkit-transition: 0.3s;
+        transition: 0.3s;
+        -webkit-transition: all 0.3s ease 0s;
+        transition: all 0.3s ease 0s;
+      }
+    }
+  }
+}
